@@ -1,0 +1,22 @@
+<div *ngIf="modalVisible" class="modal">
+  <div class="modal-content">
+    <form (ngSubmit)="onSubmit()">
+    <label >Precio:</label>
+    <input  type="text" id="mesa" name="mesa"  [(ngModel)]="equipo.mesa" placeholder="Mesa"    />
+    <label >Precio:</label>
+    <input  type="text" id="comida" name="comida" [(ngModel)]="equipo.comida" placeholder="Comida" />
+    <label >Precio:</label>
+    <input  type="text" id="precio" name="precio" [(ngModel)]="equipo.precio" placeholder="Precio" />
+    <br>
+    <button type="submit" class="btn-enviar">Enviar</button>
+    <br>
+    <button>
+    <a href="/" class="btn-enviar">cerrar</a>
+    </button>
+    </form>
+  </div>
+</div>
+
+
+
+

@@ -1,0 +1,26 @@
+<div class="container">
+    <!-- Botón para abrir el modal -->
+
+  
+    <!-- Tabla para listar los equipos -->
+    <table class="equipos-table">
+      <thead>
+        <tr>
+          <!-- <th>ID</th> -->
+          <th>Mesa</th>
+          <th>Comida</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let equipo of equipos">
+          <!-- <td>{{ equipo.id }}</td> -->
+          <td>{{ equipo.mesa }}</td>
+          <td>{{ equipo.comida }}</td>
+          <td>{{ equipo.precio}}</td>
+          
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

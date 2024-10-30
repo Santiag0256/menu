@@ -1,3 +1,4 @@
+
 import { Component, ViewChild } from '@angular/core';
 import { VentanaComponent } from '../ventana/ventana.component';
 

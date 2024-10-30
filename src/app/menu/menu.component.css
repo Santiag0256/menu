@@ -41,7 +41,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-  }
+  } 
   
   .menu-item-image {
     width: 100%;
